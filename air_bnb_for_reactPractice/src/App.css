@@ -14,4 +14,36 @@ nav>img{
   height: 2rem;
 }
 
+/*--hero*/
 
+#hero-container{
+  display: flex;
+  flex-direction: column ;
+  height: 80vh;
+  /*background-color: #3d3c3c;*/
+  font-family: 'Poppins', sans-serif;
+}
+.hero_image{
+  display: flex;
+  height: 55vh;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero_image img{
+  height: 55vh;
+  width: auto;
+}
+
+.hero_text{
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.hero_text>p:nth-child(1){
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.hero_text>p:nth-child(2){
+  font-size: 1.5rem;
+}
