@@ -14,11 +14,9 @@
 }
 
 
-
 section {
     padding: 20px;
 }
-
 
 
 .hero--header {
@@ -49,7 +47,7 @@ section {
     height: 14px;
 }
 
-.sold{
+.sold {
     position: absolute;
     top: 5px;
     font-family: Inter, "Segoe Fluent Icons", sans-serif;

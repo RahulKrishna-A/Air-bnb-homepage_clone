@@ -1,8 +1,8 @@
 import grid from "../../public/assets/photo-grid.png"
 
 
-export default function Hero(){
-    return(
+export default function Hero() {
+    return (
         <div id={"hero-container"}>
             <div className={"hero_image"}>
                 <img src={

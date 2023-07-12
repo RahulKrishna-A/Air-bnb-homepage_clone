@@ -1,55 +1,59 @@
 #root {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 
 /*----------Nav*/
-nav{
-  height: 4rem;
-  padding-left: 2rem;
-  box-shadow:0 0px 6px -2px #3d3c3c;
-  display: flex;
-  align-items: center;
+nav {
+    height: 4rem;
+    padding-left: 2rem;
+    box-shadow: 0 0px 6px -2px #3d3c3c;
+    display: flex;
+    align-items: center;
 }
-nav>img{
-  height: 2rem;
+
+nav > img {
+    height: 2rem;
 }
 
 /*--hero*/
 
-#hero-container{
-  display: flex;
-  flex-direction: column ;
-  height: 80vh;
-  /*background-color: #3d3c3c;*/
-  font-family: 'Poppins', sans-serif;
-}
-.hero_image{
-  display: flex;
-  height: 55vh;
-  margin-top: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-.hero_image img{
-  height: 55vh;
-  width: auto;
+#hero-container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    /*background-color: #3d3c3c;*/
+    font-family: 'Poppins', sans-serif;
 }
 
-.hero_text{
-  margin-top: 1rem;
-  margin-left: 2rem;
+.hero_image {
+    display: flex;
+    height: 55vh;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.hero_text>p:nth-child(1){
+.hero_image img {
+    height: 55vh;
+    width: auto;
+}
+
+.hero_text {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.hero_text > p:nth-child(1) {
     font-weight: bolder;
     font-size: 3rem;
 }
-.hero_text>p:nth-child(2){
-  font-size: 1.5rem;
+
+.hero_text > p:nth-child(2) {
+    font-size: 1.5rem;
 }
 
 
 /*----card*/
-.cardSpace{
-  display: flex;
+.cardSpace {
+    display: flex;
 }
