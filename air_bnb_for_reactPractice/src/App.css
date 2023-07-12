@@ -47,3 +47,9 @@ nav>img{
 .hero_text>p:nth-child(2){
   font-size: 1.5rem;
 }
+
+
+/*----card*/
+.cardSpace{
+  display: flex;
+}
