@@ -1,6 +1,5 @@
 import "../card.css"
-import katie from "../assets/katie-zaferes.png"
-import Star from "../assets/star.png"
+import Star from "../../public/assets/star.png"
 export default function Card(props) {
     return (
         <div className="card">
@@ -13,6 +12,7 @@ export default function Card(props) {
             </div>
             <p>{props.title}</p>
             <p><span className="bold">From ${props.price}</span> / person</p>
+            {props.openSpots===0 && <div className={"sold"}>SOLD OUT</div>}
         </div>
     )
 }
